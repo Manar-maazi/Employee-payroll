@@ -1,0 +1,47 @@
+
+.login-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+  
+    background: #cbdbff;
+  }
+  
+  /*form*/
+  
+  
+  
+  .title::after{
+    content: '';
+    text-align:center;
+    position: absolute;
+    bottom: -15px; /* Adjust as needed */
+   left:140px;
+    width:80px;
+    height: 3px; /* Height of the underline */
+    background-color: #EE7214; /* Color of the underline */
+    border-radius:9px;
+  }
+  
+  .title,
+  .slogan{
+    text-align:center;
+    position:relative;
+  }
+  
+  .btn{
+    color:	#FFFFFF;
+    background:#006769;
+  
+  }
+  
+  .margin_input{
+    margin-right:2px;
+      margin-left:8px;
+  }
+  .auth-image{
+  
+    width: 600px;
+     height: 450px ;
+  }
